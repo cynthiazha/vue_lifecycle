@@ -7,7 +7,20 @@
     <router-view/>
   </div>
 </template>
-
+<script>
+export default {
+  data () {
+    return {
+      msg: 'hello world'
+    }
+  },
+  methods: {
+    addNum () {
+      console.log(2)
+    }
+  }
+}
+</script>
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
