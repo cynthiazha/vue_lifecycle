@@ -5,6 +5,7 @@
       <router-link to="/about">About</router-link>
     </div>
     {{msg}}
+    <div>我是feature中新增的内容</div>
     <router-view/>
   </div>
 </template>
