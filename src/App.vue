@@ -4,6 +4,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
+    <div>我是feature中新增的内容</div>
     <router-view/>
   </div>
 </template>
